@@ -1,0 +1,159 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 100px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+}
+
+nav a {
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+	font-size: 23px;
+}
+
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+fieldset {
+	border: 0px;
+}
+.input-padrao {
+	display: block;
+	padding: 10px;
+	margin: 0 0 20px;
+	width: 50%;
+	border-radius: 10px;
+}
+
+.checkbox {
+	padding: 10px 0 20px;
+}
+
+form p {
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 15px;
+}
+.ajuste {
+	height: 170px;
+	padding-top: 30px;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: seagreen;
+	transform: scale(1.2);
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.caixa {
+		width: auto;
+	}
+
+	.ajuste-logo {
+		width: 140px;
+		height: 220px;
+	}
+
+	h1 {
+		text-align: center ;
+	}
+
+	nav {
+		position: static;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	nav li {
+		margin: 0 10px;
+	}
+
+	main {
+		width: auto;
+		margin-left: 10px;
+	}
+
+
+
+	.input-padrao {
+		width: 330px;
+	}
+
+	.enviar {
+		width: 280px;
+		margin: 0 auto;
+	}
+
+	.botao {
+		text-align: center;
+	}
+
+	.ajuste {
+		padding-top: 10px;
+	}
+}

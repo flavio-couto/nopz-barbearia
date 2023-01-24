@@ -4,6 +4,8 @@ Primeiro Projeto executado em HTML e CSS aprendendo através do curso da Alura.
 
 Utilizado como modelo um site de barbearia.
 
+Na página inicial tem algumas coisas fora do "padrão" (linha vermelha, algumas partes do texto com fundo amarelo) da página mas é para eu lembrar a utilização de alguns pseudo-elementos e possibilidades existentes.
+
 Um pouco sobre o que aprendi:
 
 * Utilizar os sparadores para o HEADER, BODY e FOOTER; 

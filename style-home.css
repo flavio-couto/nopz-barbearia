@@ -169,10 +169,6 @@ main > p { /* O sinal > diz que apenas o primeiro "filho" (nesse caso o parágra
 	background: red;
 }
 
-img ~ p:not(#missao) { /* O TIL "~" é usado para selecionar TODOS após o elemento IMG nesse caso, mas poderia ser outro qualquer. */
-	background: yellow; /* O pseudo elemento :NOT é para criar uma exceção, no caso o parágrafo que tem o ID "#missao" não receberá a formatação */
-}
-
 @media screen and (max-width: 480px) {
 
 	.bannernopz {

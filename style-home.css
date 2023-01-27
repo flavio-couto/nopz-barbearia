@@ -165,9 +165,6 @@ footer {
 .video:hover {
 	opacity: 1;
 }
-main > p { /* O sinal > diz que apenas o primeiro "filho" (nesse caso o parágrafo) receberá a formatação, os outros que estiverem dentro de outra SECTION ou DIV não receberão. */
-	background: red;
-}
 
 @media screen and (max-width: 480px) {
 
